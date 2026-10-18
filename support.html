@@ -6,7 +6,7 @@
   <title>Support — Kana Metro</title>
   <meta name="description" content="Help and contact for Kana Metro.">
   <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
   <div class="wrap">
@@ -53,7 +53,7 @@
         <input type="hidden" name="from_name" value="Kana Metro website">
         <input type="hidden" name="subject" value="Kana Metro: new message">
         <!-- Honeypot: hidden from people, bots fill it in and their message is dropped. -->
-        <input type="checkbox" name="botcheck" class="honeypot" tabindex="-1" autocomplete="off">
+        <input type="checkbox" name="botcheck" class="honeypot" style="display:none" tabindex="-1" autocomplete="off">
 
         <label for="reason">What's it about?</label>
         <select id="reason" name="reason" required>
